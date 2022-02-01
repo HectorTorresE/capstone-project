@@ -14,11 +14,11 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
 
-<body>
-  <header class="HeaderMobile">
-    <div class="row ml-2 mr-2 pt-4">
+<body class="bod">
+  <header id="HeaderM" class="HeaderMobile">
+    <div class="row mx-auto pt-2">
       <div class="col-2">
-        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="orange" class="bi bi-list"
+        <svg xmlns="http://www.w3.org/2000/svg" id="menu" width="30" height="30" fill="orange" class="bi bi-list"
           viewBox="0 0 16 16">
           <path fill-rule="evenodd"
             d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
@@ -27,7 +27,84 @@
     </div>
   </header>
 
-  <main>
+  <header class="navDesktop">
+    <nav class="navbar bg-dark">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-4">
+            <a class="title" href="#">TDM Festival</a>
+          </div>
+          <div class="col-8 justify-content-end">
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link description" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link description" href="#">Tickets</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link description" href="#">Dates</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section id="MenuP" class="mobileMenuInvis">
+    <div class="row mx-auto pt-2">
+      <div class="col-6 text-left">
+        <svg xmlns="http://www.w3.org/2000/svg" id="close" width="30" height="30" fill="orange" class="bi bi-x"
+          viewBox="0 0 16 16">
+          <path
+            d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+        </svg>
+      </div>
+      <div class="col-6 text-right">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="orange" class="bi bi-music-note-beamed "
+          viewBox="0 0 16 16">
+          <path
+            d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13c0-1.104 1.12-2 2.5-2s2.5.896 2.5 2zm9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2z" />
+          <path fill-rule="evenodd" d="M14 11V2h1v9h-1zM6 3v10H5V3h1z" />
+          <path d="M5 2.905a1 1 0 0 1 .9-.995l8-.8a1 1 0 0 1 1.1.995V3L5 4V2.905z" />
+        </svg>
+      </div>
+    </div>
+    <div>
+      <ul class="mobileMen text-center mr-5">
+        <li class="nav-item">
+          <a class="nav-link description" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link description" href="#">Tickets</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link description" href="#">Dates</a>
+        </li>
+      </ul>
+      <div class="row mx-auto">
+        <div class="col-6 text-left">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="orange"
+            class="bi bi-boombox-fill text-right" viewBox="0 0 16 16">
+            <path  d="M14.5.5a.5.5 0 0 0-1 0V2H1a1 1 0 0 0-1 1v2h16V3a1 1 0 0 0-1-1h-.5V.5ZM2.5 4a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1Zm2 0a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1Zm7.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Zm1.5.5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1Zm-7-1h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1 0-1Zm-2 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm.5-1.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Zm6.5 1.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm0-1a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Z" />
+            <path d="M16 6H0v8a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V6ZM4.5 13a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Zm7 0a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Z" />
+          </svg>
+        </div>
+        <div class="col-6 text-right">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="orange" class="bi bi-vinyl-fill" viewBox="0 0 16 16">
+            <path d="M8 6a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm0 3a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4 8a4 4 0 1 0 8 0 4 4 0 0 0-8 0z"/>
+          </svg>
+        </div>
+      </div>
+      <div class="text-right pl-4 pb-2">
+
+      </div>
+    </div>
+  </section>
+
+  <main class="w-100">
     <section class="introMobile">
       <div class="row pl-5 pr-5 pt-5">
         <div class="col-12">
@@ -67,6 +144,47 @@
           <br>
           @ Dominican Republic, Cap-Cana
         </p>
+      </div>
+    </section>
+
+    <section class="introDesktop pb-5">
+      <div class="row pl-5 pt-5">
+        <div class="col-6">
+          <h1 class="title">TDM 2022</h1>
+          <h1 class="title "> A festival for everyone</h1>
+          <div class="w-75 text-right pb-2 pt-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="orange"
+              class="bi bi-boombox-fill text-right" viewBox="0 0 16 16">
+              <path
+                d="M14.5.5a.5.5 0 0 0-1 0V2H1a1 1 0 0 0-1 1v2h16V3a1 1 0 0 0-1-1h-.5V.5ZM2.5 4a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1Zm2 0a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1Zm7.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Zm1.5.5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1Zm-7-1h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1 0-1Zm-2 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm.5-1.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Zm6.5 1.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm0-1a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Z" />
+              <path
+                d="M16 6H0v8a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V6ZM4.5 13a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Zm7 0a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Z" />
+            </svg>
+          </div>
+          <div class="w-75">
+            <p class="description border p-2">
+              A high energy musicfestival desing for evreyone with multiple music generas from pop,hiphop, rock, and
+              EDM.
+              Taking place in the Dominican Republic Cap-Cana on march 2022
+            </p>
+          </div>
+          <div class="text-left">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="orange" class="bi bi-music-note-beamed"
+              viewBox="0 0 16 16">
+              <path
+                d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13c0-1.104 1.12-2 2.5-2s2.5.896 2.5 2zm9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2z" />
+              <path fill-rule="evenodd" d="M14 11V2h1v9h-1zM6 3v10H5V3h1z" />
+              <path d="M5 2.905a1 1 0 0 1 .9-.995l8-.8a1 1 0 0 1 1.1.995V3L5 4V2.905z" />
+            </svg>
+          </div>
+          <div class="text-left">
+            <h3 class="date mb-0">
+              2022.03.11(FRI) ~ 13(SUN)
+              <br>
+              @ Dominican Republic, Cap-Cana
+            </h3>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -142,6 +260,182 @@
       </div>
     </section>
 
+    <section class="stageDesktop m-5 h-100">
+      <div class="row mb-2 h-100">
+        <div class="col-12 text-center">
+          <h1 class="StagesTitle">Stages </h1>
+        </div>
+      </div>
+      <div class="row stageDesktop w-75 mx-auto mt-5 mb-3">
+        <div class="col-3">
+          <div class="card">
+            <img class="card-img-top" src="Images/160323-Kendrick-Lamar-827x620.jpg" alt="HipHop stage picture">
+            <div class="card-body">
+              <h5 class="card-title fontD">HipHop</h5>
+              <p class="card-text fontD">Stage with artist such as Kendric, Drake, J. Cole, etc...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <img class="card-img-top" src="Images/bbbc5975de7d7722b3aefcfab5c71377c8-taylor-swift.rsquare.w1200.jpg"
+              alt="Pop stage picture">
+            <div class="card-body">
+              <h5 class="card-title fontD">Pop</h5>
+              <p class="card-text fontD">Stage with artist such as Taylor swift, Dua Lipa, etc...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <img class="card-img-top" src="Images/maxresdefault.jpg" alt="EDM stage picture">
+            <div class="card-body">
+              <h5 class="card-title fontD">EDM</h5>
+              <p class="card-text fontD">Stage with artist such as Skrillex, Steve Aoki, Black Coffe, etc...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <img class="card-img-top" src="Images/acdc-uk-1551875497.43.jpg" alt="Rock stage picture">
+            <div class="card-body">
+              <h5 class="card-title fontD">Rock</h5>
+              <p class="card-text fontD">Stage with artist such as Pink Flyod, ACDC, etc...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="artistDesktop m-5">
+      <div class="row m-2">
+        <div class="col-12 text-center">
+          <h2 class="black">Artist</h2>
+        </div>
+      </div>
+      <div class="row m-2">
+        <div class="col-12 text-center">
+          <h2 class="black">Artist</h2>
+        </div>
+      </div>
+      <div class="row m-2">
+        <div class="col-12 text-center">
+          <h2 class="black">Artist</h2>
+        </div>
+      </div>
+      <div class="row m-2">
+        <div class="col-12 text-center">
+          <h2 class="black">Artist</h2>
+        </div>
+      </div>
+      <div class="row m-2">
+        <div class="col-12 text-center">
+          <h2 class="black">Artist</h2>
+        </div>
+      </div>
+      <div class="row m-2">
+        <div class="col-12 text-center">
+          <h2 class="black">Artist</h2>
+        </div>
+      </div>
+      <div class="row m-2 mt-3 w-75 mx-auto">
+        <button type="button" class="btn btn-lg btn-block buyTickets">Buy Tickets</button>
+      </div>
+      <div class="row m-2">
+        <div class="col-12 text-center">
+          <h2 class="black">Artist</h2>
+        </div>
+      </div>
+      <div class="row m-2">
+        <div class="col-12 text-center">
+          <h2 class="StagesTitle">Artist</h2>
+        </div>
+      </div>
+      <div class="text-left">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="orange" class="bi bi-earbuds"
+          viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M6.825 4.138c.596 2.141-.36 3.593-2.389 4.117a4.432 4.432 0 0 1-2.018.054c-.048-.01.9 2.778 1.522 4.61l.41 1.205a.52.52 0 0 1-.346.659l-.593.19a.548.548 0 0 1-.69-.34L.184 6.99c-.696-2.137.662-4.309 2.564-4.8 2.029-.523 3.402 0 4.076 1.948zm-.868 2.221c.43-.112.561-.993.292-1.969-.269-.975-.836-1.675-1.266-1.563-.43.112-.561.994-.292 1.969.269.975.836 1.675 1.266 1.563zm3.218-2.221c-.596 2.141.36 3.593 2.389 4.117a4.434 4.434 0 0 0 2.018.054c.048-.01-.9 2.778-1.522 4.61l-.41 1.205a.52.52 0 0 0 .346.659l.593.19c.289.092.6-.06.69-.34l2.536-7.643c.696-2.137-.662-4.309-2.564-4.8-2.029-.523-3.402 0-4.076 1.948zm.868 2.221c-.43-.112-.561-.993-.292-1.969.269-.975.836-1.675 1.266-1.563.43.112.561.994.292 1.969-.269.975-.836 1.675-1.266 1.563z" />
+        </svg>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <div class="row m-2">
+            <div class="col-4">
+              <img src="Images/jcole.jpg" class="img-fluid rounded pt-4" alt="HipHop stage picture">
+            </div>
+            <div class="col-8 mt-5">
+              <h4 class="description">J. Cole</h4>
+              <p class="description">
+                Multiple time platinum artitst with multiple album of the year consider one of the Goats of his
+                generation
+              </p>
+            </div>
+          </div>
+          <div class="row m-2">
+            <div class="col-4">
+              <img src="Images/DuaLipa.jpg" class="img-fluid rounded pt-4 h-100" alt="HipHop stage picture">
+            </div>
+            <div class="col-8 mt-5">
+              <h4 class="description">Dua Lipa</h4>
+              <p class="description">
+                An English singer, songwriter, and model. Her musical career began at age 14
+              </p>
+            </div>
+          </div>
+          <div class="row m-2">
+            <div class="col-4">
+              <img src="Images/skrillex.jpg" class="img-fluid rounded pt-4 h-100" alt="HipHop stage picture">
+            </div>
+            <div class="col-8 mt-5">
+              <h4 class="description">Skrillex</h4>
+              <p class="description">
+                An American record producer, DJ, singer, songwriter and musician
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="row m-2">
+            <div class="col-4 align-baseline">
+              <img src="Images/drake.jpg" class="img-fluid rounded pt-4" alt="HipHop stage picture">
+            </div>
+            <div class="col-8 mt-5">
+              <h4 class="description">Drake</h4>
+              <p class="description">
+                Another multi platinum artitst his work include If you are reading this is too late, take care, and
+                others
+              </p>
+            </div>
+          </div>
+          <div class="row m-2">
+            <div class="col-4">
+              <img src="Images/ACDC.jpg" class="img-fluid rounded pt-4 h-100" alt="HipHop stage picture">
+            </div>
+            <div class="col-8 mt-5">
+              <h4 class="description">ACDC</h4>
+              <p class="description">
+                An Australian rock band formed in Sydney in 1973 by Scottish-born brothers Malcolm and Angus Young
+              </p>
+            </div>
+          </div>
+          <div class="row m-2">
+            <div class="col-4">
+              <img src="Images/Marshmello.jpg" class="img-fluid rounded pt-4 h-100" alt="HipHop stage picture">
+            </div>
+            <div class="col-8 mt-5">
+              <h4 class="description">Marshmello</h4>
+              <p class="description">
+                An American electronic music producer and DJ. His songs "Silence", "Wolves", "Friends", "Happier", and
+                "Alone" have been certified multi-platinum in several countries and appeared in the Top 30 of the
+                Billboard Hot 100
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="artistSection pb-3">
       <div class="row mb-2">
         <div class="col-12 text-center">
@@ -179,20 +473,92 @@
           </div>
         </div>
         <div class="col-12 text-right">
-          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="orange" class="bi bi-ear-fill" viewBox="0 0 16 16">
-            <path d="M8.5 0A5.5 5.5 0 0 0 3 5.5v7.047a3.453 3.453 0 0 0 6.687 1.212l.51-1.363a4.59 4.59 0 0 1 .67-1.197l2.008-2.581A5.34 5.34 0 0 0 8.66 0H8.5ZM7 5.5v2.695c.112-.06.223-.123.332-.192.327-.208.577-.44.72-.727a.5.5 0 1 1 .895.448c-.256.513-.673.865-1.079 1.123A8.538 8.538 0 0 1 7 9.313V11.5a.5.5 0 0 1-1 0v-6a2.5 2.5 0 0 1 5 0V6a.5.5 0 0 1-1 0v-.5a1.5 1.5 0 1 0-3 0Z"/>
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="orange" class="bi bi-ear-fill"
+            viewBox="0 0 16 16">
+            <path
+              d="M8.5 0A5.5 5.5 0 0 0 3 5.5v7.047a3.453 3.453 0 0 0 6.687 1.212l.51-1.363a4.59 4.59 0 0 1 .67-1.197l2.008-2.581A5.34 5.34 0 0 0 8.66 0H8.5ZM7 5.5v2.695c.112-.06.223-.123.332-.192.327-.208.577-.44.72-.727a.5.5 0 1 1 .895.448c-.256.513-.673.865-1.079 1.123A8.538 8.538 0 0 1 7 9.313V11.5a.5.5 0 0 1-1 0v-6a2.5 2.5 0 0 1 5 0V6a.5.5 0 0 1-1 0v-.5a1.5 1.5 0 1 0-3 0Z" />
           </svg>
         </div>
       </div>
       <div class="row m-2 mt-3">
-        <button type="button" class="btn btn-lg btn-block buyTickets">More <i class="bi bi-caret-down-fill icon pl-2"></i>
+        <button type="button" class="btn btn-lg btn-block buyTickets">More <i
+            class="bi bi-caret-down-fill icon pl-2"></i>
         </button>
+      </div>
+    </section>
+
+    <section class="partnerSecDesktop mt-5">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h3 class="title">Sponsors</h3>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-4 text-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="orange" class="bi bi-apple"
+            viewBox="0 0 16 16">
+            <path
+              d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282z" />
+            <path
+              d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282z" />
+          </svg>
+        </div>
+        <div class="col-4 text-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="orange" class="bi bi-twitter"
+            viewBox="0 0 16 16">
+            <path
+              d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+          </svg>
+        </div>
+        <div class="col-4 text-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="orange" class="bi bi-google"
+            viewBox="0 0 16 16">
+            <path
+              d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z" />
+          </svg>
+        </div>
+      </div>
+      <div class="row mt-4 pb-5">
+        <div class="col-12 text-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="orange" class="bi bi-instagram mr-4"
+            viewBox="0 0 16 16">
+            <path
+              d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="orange" class="bi bi-spotify ml-4"
+            viewBox="0 0 16 16">
+            <path
+              d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.669 11.538a.498.498 0 0 1-.686.165c-1.879-1.147-4.243-1.407-7.028-.77a.499.499 0 0 1-.222-.973c3.048-.696 5.662-.397 7.77.892a.5.5 0 0 1 .166.686zm.979-2.178a.624.624 0 0 1-.858.205c-2.15-1.321-5.428-1.704-7.972-.932a.625.625 0 0 1-.362-1.194c2.905-.881 6.517-.454 8.986 1.063a.624.624 0 0 1 .206.858zm.084-2.268C10.154 5.56 5.9 5.419 3.438 6.166a.748.748 0 1 1-.434-1.432c2.825-.857 7.523-.692 10.492 1.07a.747.747 0 1 1-.764 1.288z" />
+          </svg>
+        </div>
       </div>
     </section>
   </main>
 
   <footer>
-
+    <section class="footerdesk">
+      <div class="row">
+        <div class="col-2 text-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="orange" class="bi bi-boombox-fill mt-3"
+            viewBox="0 0 16 16">
+            <path
+              d="M14.5.5a.5.5 0 0 0-1 0V2H1a1 1 0 0 0-1 1v2h16V3a1 1 0 0 0-1-1h-.5V.5ZM2.5 4a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1Zm2 0a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1Zm7.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Zm1.5.5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1Zm-7-1h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1 0-1Zm-2 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm.5-1.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Zm6.5 1.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm0-1a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Z" />
+            <path
+              d="M16 6H0v8a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V6ZM4.5 13a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Zm7 0a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Z" />
+          </svg>
+        </div>
+        <div class="col-8 text-center">
+          <h3 class="title">TDM FESTIVAL</h3>
+        </div>
+        <div class="col-2 text-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="orange" class="bi bi-vinyl-fill mt-3"
+            viewBox="0 0 16 16">
+            <path d="M8 6a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm0 3a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4 8a4 4 0 1 0 8 0 4 4 0 0 0-8 0z" />
+          </svg>
+        </div>
+      </div>
+    </section>
   </footer>
 
   <script src="Index.js"></script>
