@@ -1,4 +1,4 @@
-body {
+.bod {
   background-color: black;
 }
 
@@ -16,8 +16,8 @@ body {
 }
 
 .description {
-  font-family: 'Maven Pro', sans-serif;
-  color: orange;
+  font-family: 'Maven Pro', sans-serif !important;
+  color: orange !important;
 }
 
 .border {
@@ -64,6 +64,11 @@ body {
   font-family: 'Maven Pro', sans-serif;
 }
 
+.fontD {
+  font-family: 'Maven Pro', sans-serif;
+  color: orange;
+}
+
 .artistSection {
   background-color: black;
 }
@@ -94,13 +99,13 @@ img {
 .year2020 {
   background-image: url(images/year2020.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 200px;
+  background-size: 100% 100%;
 }
 
 .year2021 {
   background-image: url(images/year2021.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 200px;
+  background-size: 100% 100%;
 }
 
 .descriptionYear {
@@ -113,7 +118,102 @@ img {
   background-color: black;
 }
 
+.footerdesk {
+  height: 100%;
+}
+
 .titleFot {
   font-family: 'Mochiy Pop P One', sans-serif;
   color: black;
+}
+
+.introDesktop {
+  background-image: url(images/skrillex-club-sonar2015-c-advanced-music-arielmartini-4.jpg_604889389.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: black;
+}
+
+.stageDesktop {
+  margin-bottom: 9000px !important;
+}
+
+.card {
+  border: 0px solid orange !important;
+}
+
+.artistDesktop {
+  margin-top: 9000px !important;
+}
+
+.black {
+  color: transparent;
+}
+
+@media (min-width: 768px) {
+  .HeaderMobile {
+    display: none;
+  }
+
+  .introMobile {
+    display: none;
+  }
+
+  .artistSection {
+    display: none;
+  }
+  
+  .charityMobile {
+    display: none;
+  }
+
+  .footermobile {
+    display: none;
+  }
+
+  .partnerSec {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .partnerSecDesktop {
+    display: none;
+  }
+
+  .footerdesk {
+    display: none;
+  }
+
+  .artistDesktop {
+    display: none;
+  }
+
+  .stageDesktop {
+    display: none;
+  }
+
+  .introDesktop {
+    display: none;
+  }
+  
+  .navDesktop {
+    display: none;
+  }
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+.mobileMen {
+  list-style: none;
+}
+
+.mobileMenuInvis {
+  display: none;
+}
+
+.mobileMenuVis {
+  display: block;
 }
