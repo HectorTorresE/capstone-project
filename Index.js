@@ -3,7 +3,6 @@ const HeaderM = document.getElementById('HeaderM');
 const btnMenu = document.getElementById('menu');
 const btnClose = document.getElementById('close');
 
-
 const openAndClose = function () {
   if (Menu.classList.contains('mobileMenuInvis')) {
     Menu.classList.remove('mobileMenuInvis');

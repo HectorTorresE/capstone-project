@@ -53,6 +53,7 @@
 .card {
   background-color: #bbb !important;
   height: 100px !important;
+  border: 0px solid orange !important;
 }
 
 .buyTickets {
@@ -138,14 +139,6 @@ img {
   margin-bottom: 9000px !important;
 }
 
-.card {
-  border: 0px solid orange !important;
-}
-
-.artistDesktop {
-  margin-top: 9000px !important;
-}
-
 .black {
   color: transparent;
 }
@@ -162,7 +155,7 @@ img {
   .artistSection {
     display: none;
   }
-  
+
   .charityMobile {
     display: none;
   }
@@ -196,7 +189,7 @@ img {
   .introDesktop {
     display: none;
   }
-  
+
   .navDesktop {
     display: none;
   }
