@@ -88,7 +88,7 @@ function artistJs() {
     col2.classList.add('mt-5');
     const title = document.createElement('h4');
     title.classList.add('description');
-    title.textContent = el.name
+    title.textContent = el.name;
     const pag = document.createElement('p');
     pag.classList.add('description');
     pag.textContent = el.description;
