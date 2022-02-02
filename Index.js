@@ -34,8 +34,7 @@ const artist = [
       'Another multi platinum artitst',
     description:
       'Another multi platinum artitst his work include If you are reading this is too late, take care, and others',
-  
-   },
+  },
   {
     image: 'Images/DuaLipa.jpg',
     name: 'Dua Lipa',
@@ -72,7 +71,6 @@ const artist = [
 
 function artistJs() {
   artist.map((el, i) => {
-    
     const row = document.createElement('div');
     row.classList.add('row');
     row.classList.add('m-2');
@@ -98,14 +96,12 @@ function artistJs() {
     col2.appendChild(pag);
     row.appendChild(col2);
 
-    if (i >= (artist.length -1 ) / 2) {
+    if (i >= (artist.length - 1) / 2) {
       const artistDesk = document.getElementById('artistDeskA');
       artistDesk.appendChild(row);
-    }
-    else {
+    } else {
       const artistDeskB = document.getElementById('artistDeskB');
       artistDeskB.appendChild(row);
-
     }
 
     return null;
