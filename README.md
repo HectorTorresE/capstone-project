@@ -19,6 +19,8 @@ Home and about pages.
 
 [Demo Link](https://hectortorrese.github.io/capstone-project/)
 
+[Demo Video](https://www.loom.com/share/badf308c8d664307b703a77ba3478d3f)
+
 ## Getting Started
 
 To have a local copy of this project, follow theese simple steps:
