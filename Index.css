@@ -98,13 +98,13 @@ img {
 }
 
 .year2020 {
-  background-image: url(images/year2020.jpg);
+  background-image: url(Images/year2020.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
 .year2021 {
-  background-image: url(images/year2021.jpg);
+  background-image: url(Images/year2021.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -129,7 +129,7 @@ img {
 }
 
 .introDesktop {
-  background-image: url(images/skrillex-club-sonar2015-c-advanced-music-arielmartini-4.jpg_604889389.jpg);
+  background-image: url(Images/skrillex-club-sonar2015-c-advanced-music-arielmartini-4.jpg_604889389.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-color: black;
