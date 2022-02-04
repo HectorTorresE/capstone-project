@@ -1,5 +1,5 @@
 .bod {
-  background-color: #D3D3D3;
+  background-color: #d3d3d3;
 }
 
 .title {
@@ -251,7 +251,6 @@ body {
 .top-nav .link:hover {
   text-decoration: underline;
 }
-
 
 .icon img {
   max-height: 20px;
