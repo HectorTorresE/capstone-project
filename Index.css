@@ -8,11 +8,11 @@
 }
 
 .HeaderMobile {
-  background-color: black;
+  background-color: #d3d3d3;
 }
 
 .introMobile {
-  background-color: black;
+  background-color: #d3d3d3;
 }
 
 .description {
@@ -71,7 +71,7 @@
 }
 
 .artistSection {
-  background-color: black;
+  background-color: #d3d3d3;
 }
 
 img {
@@ -89,7 +89,7 @@ img {
 }
 
 .charityMobile {
-  background-color: black;
+  background-color: #d3d3d3;
 }
 
 .borderImg {
@@ -116,12 +116,12 @@ img {
 }
 
 .partnerSec {
-  background-color: black;
+  background-color: #d3d3d3;
 }
 
 .footerdesk {
   height: 100%;
-  background-color: #272a31;
+  background-color: white;
 }
 
 .titleFot {
@@ -133,7 +133,7 @@ img {
   background-image: url(Images/skrillex-club-sonar2015-c-advanced-music-arielmartini-4.jpg_604889389.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  background-color: black;
+  background-color: #d3d3d3;
 }
 
 .stageDesktop {
