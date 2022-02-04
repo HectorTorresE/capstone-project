@@ -1,34 +1,34 @@
 .bod {
-  background-color: black;
+  background-color: #d3d3d3;
 }
 
 .title {
   font-family: 'Mochiy Pop P One', sans-serif;
-  color: orange;
+  color: #ec5242;
 }
 
 .HeaderMobile {
-  background-color: black;
+  background-color: #d3d3d3;
 }
 
 .introMobile {
-  background-color: black;
+  background-color: #d3d3d3;
 }
 
 .description {
   font-family: 'Maven Pro', sans-serif !important;
-  color: orange !important;
+  color: #272a31 !important;
 }
 
 .border {
-  border: 1px solid orange;
+  border: 1px solid #ec5242;
   box-sizing: border-box;
 }
 
 .date {
   font-family: 'Maven Pro', sans-serif;
   font-weight: bold;
-  color: orange;
+  color: #272a31;
 }
 
 .stageMobile {
@@ -38,26 +38,30 @@
 .borderHr {
   height: 1px;
   width: 70px;
-  color: orange;
-  background-color: orange;
+  color: #ec5242;
+  background-color: #ec5242;
 }
 
 .StagesTitle {
   text-decoration: underline;
-  text-decoration-color: orange;
+  text-decoration-color: #ec5242;
   text-decoration-thickness: 5px;
   font-family: 'Mochiy Pop P One', sans-serif;
-  color: orange;
+  color: #ec5242;
 }
 
 .card {
   background-color: #bbb !important;
   height: 100px !important;
-  border: 0 solid orange !important;
+  border: 0 solid #ec5242 !important;
+}
+
+.dark {
+  background-color: #272a31 !important;
 }
 
 .buyTickets {
-  background-color: orange !important;
+  background-color: #ec5242 !important;
   font-family: 'Mochiy Pop P One', sans-serif;
 }
 
@@ -66,12 +70,12 @@
 }
 
 .fontD {
-  font-family: 'Maven Pro', sans-serif;
-  color: orange;
+  font-family: 'Maven Pro', sans-serif !important;
+  color: #ec5242;
 }
 
 .artistSection {
-  background-color: black;
+  background-color: #d3d3d3;
 }
 
 img {
@@ -85,15 +89,15 @@ img {
 
 .email {
   text-decoration: underline;
-  text-decoration-color: orange;
+  text-decoration-color: #ec5242;
 }
 
 .charityMobile {
-  background-color: black;
+  background-color: #d3d3d3;
 }
 
 .borderImg {
-  border: 1px solid orange;
+  border: 1px solid #ec5242;
   box-sizing: border-box;
 }
 
@@ -111,16 +115,17 @@ img {
 
 .descriptionYear {
   font-family: 'Maven Pro', sans-serif;
-  color: orange;
+  color: #272a31;
   font-weight: bold;
 }
 
 .partnerSec {
-  background-color: black;
+  background-color: #d3d3d3;
 }
 
 .footerdesk {
   height: 100%;
+  background-color: white;
 }
 
 .titleFot {
@@ -132,11 +137,12 @@ img {
   background-image: url(Images/skrillex-club-sonar2015-c-advanced-music-arielmartini-4.jpg_604889389.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  background-color: black;
+  background-color: #d3d3d3;
 }
 
 .stageDesktop {
-  margin-bottom: 9000px !important;
+  margin: 0 !important;
+  background-color: #272a31;
 }
 
 .black {
@@ -226,4 +232,69 @@ body {
 
 .mobileMenuVis {
   display: block;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: flex-end;
+  z-index: 999;
+  margin: 0 auto;
+  background-color: #272a31;
+  padding: 0 20px;
+  position: absolute;
+  width: 100%;
+  column-gap: 10px;
+  height: 30px;
+  align-items: center;
+  list-style-type: none;
+}
+
+.link {
+  color: white !important;
+}
+
+.top-nav .link:hover {
+  text-decoration: underline;
+}
+
+.icon img {
+  max-height: 20px;
+  max-width: 20px;
+}
+
+.nav-bar {
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  width: 100%;
+  z-index: 0;
+  background-color: white;
+  padding: 30px 20px 5px;
+  overflow: hidden;
+  box-shadow: 0 1px 7px #d3d3d3;
+}
+
+.navUl {
+  display: flex;
+  flex-direction: row;
+  width: 60vw;
+  padding: 0;
+  height: 100%;
+  position: relative;
+  list-style: none;
+  gap: 100px;
+  justify-content: flex-end;
+}
+
+.footermobile {
+  background-color: white;
+}
+
+.footerDesktop {
+  background-color: #272a31;
+}
+
+.iconColor {
+  color: #ec5242;
 }
