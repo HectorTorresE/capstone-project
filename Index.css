@@ -17,7 +17,7 @@
 
 .description {
   font-family: 'Maven Pro', sans-serif !important;
-  color: #ec5242 !important;
+  color: #272a31 !important;
 }
 
 .border {
@@ -28,7 +28,7 @@
 .date {
   font-family: 'Maven Pro', sans-serif;
   font-weight: bold;
-  color: #ec5242;
+  color: #272a31;
 }
 
 .stageMobile {
@@ -54,6 +54,10 @@
   background-color: #bbb !important;
   height: 100px !important;
   border: 0 solid #ec5242 !important;
+}
+
+.dark {
+  background-color: #272a31 !important;
 }
 
 .buyTickets {
@@ -111,7 +115,7 @@ img {
 
 .descriptionYear {
   font-family: 'Maven Pro', sans-serif;
-  color: #ec5242;
+  color: #272a31;
   font-weight: bold;
 }
 
@@ -137,7 +141,8 @@ img {
 }
 
 .stageDesktop {
-  margin-bottom: 9000px !important;
+  margin: 0 !important;
+  background-color: #272a31;
 }
 
 .black {
