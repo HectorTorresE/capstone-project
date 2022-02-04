@@ -4,7 +4,7 @@
 
 .title {
   font-family: 'Mochiy Pop P One', sans-serif;
-  color: #EC5242;
+  color: #ec5242;
 }
 
 .HeaderMobile {
@@ -17,18 +17,18 @@
 
 .description {
   font-family: 'Maven Pro', sans-serif !important;
-  color: #EC5242 !important;
+  color: #ec5242 !important;
 }
 
 .border {
-  border: 1px solid #EC5242;
+  border: 1px solid #ec5242;
   box-sizing: border-box;
 }
 
 .date {
   font-family: 'Maven Pro', sans-serif;
   font-weight: bold;
-  color: #EC5242;
+  color: #ec5242;
 }
 
 .stageMobile {
@@ -38,26 +38,26 @@
 .borderHr {
   height: 1px;
   width: 70px;
-  color: #EC5242;
-  background-color: #EC5242;
+  color: #ec5242;
+  background-color: #ec5242;
 }
 
 .StagesTitle {
   text-decoration: underline;
-  text-decoration-color: #EC5242;
+  text-decoration-color: #ec5242;
   text-decoration-thickness: 5px;
   font-family: 'Mochiy Pop P One', sans-serif;
-  color: #EC5242;
+  color: #ec5242;
 }
 
 .card {
   background-color: #bbb !important;
   height: 100px !important;
-  border: 0 solid #EC5242 !important;
+  border: 0 solid #ec5242 !important;
 }
 
 .buyTickets {
-  background-color: #EC5242 !important;
+  background-color: #ec5242 !important;
   font-family: 'Mochiy Pop P One', sans-serif;
 }
 
@@ -67,7 +67,7 @@
 
 .fontD {
   font-family: 'Maven Pro', sans-serif !important;
-  color: #EC5242;
+  color: #ec5242;
 }
 
 .artistSection {
@@ -85,7 +85,7 @@ img {
 
 .email {
   text-decoration: underline;
-  text-decoration-color: #EC5242;
+  text-decoration-color: #ec5242;
 }
 
 .charityMobile {
@@ -93,7 +93,7 @@ img {
 }
 
 .borderImg {
-  border: 1px solid #EC5242;
+  border: 1px solid #ec5242;
   box-sizing: border-box;
 }
 
@@ -111,7 +111,7 @@ img {
 
 .descriptionYear {
   font-family: 'Maven Pro', sans-serif;
-  color: #EC5242;
+  color: #ec5242;
   font-weight: bold;
 }
 
@@ -121,8 +121,7 @@ img {
 
 .footerdesk {
   height: 100%;
-  background-color: #272A31;
-
+  background-color: #272a31;
 }
 
 .titleFot {
@@ -235,7 +234,7 @@ body {
   justify-content: flex-end;
   z-index: 999;
   margin: 0 auto;
-  background-color: #272A31;
+  background-color: #272a31;
   padding: 0 20px;
   position: absolute;
   width: 100%;
@@ -245,13 +244,14 @@ body {
   list-style-type: none;
 }
 
+.link {
+  color: white !important;
+}
+
 .top-nav .link:hover {
   text-decoration: underline;
 }
 
-.link {
-  color: white !important;
-}
 
 .icon img {
   max-height: 20px;
@@ -288,9 +288,9 @@ body {
 }
 
 .footerDesktop {
-  background-color: #272A31;
+  background-color: #272a31;
 }
 
-.iconColor{
-  color: #EC5242;
+.iconColor {
+  color: #ec5242;
 }
